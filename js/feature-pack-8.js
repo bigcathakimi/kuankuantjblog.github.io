@@ -1,7 +1,7 @@
 /**
  * 功能包 #8: 数据统计 (36-40)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

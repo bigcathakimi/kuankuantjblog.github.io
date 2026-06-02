@@ -1,7 +1,7 @@
 /**
  * 功能包 #16: 表单增强 (76-80)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

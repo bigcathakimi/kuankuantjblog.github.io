@@ -2,7 +2,7 @@
  * 🏆 终极功能包 - FINAL (9001-10000+) - 1000+个功能
  * 前端、后端、全栈、架构、设计、产品、运营等全面功能
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 9001-9200: 前端框架与生态 (200个)

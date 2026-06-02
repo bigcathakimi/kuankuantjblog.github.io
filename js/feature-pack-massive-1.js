@@ -2,7 +2,7 @@
  * 功能包 - 海量功能合集 #1 (6-55) - 50个功能
  * UI增强、动画效果、交互优化、工具集
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

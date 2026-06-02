@@ -1,7 +1,7 @@
 /**
  * 功能包 #9: 视觉效果 (41-45)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

@@ -2,7 +2,7 @@
  * 功能包 - 海量功能合集 #3 (81-130) - 50个功能
  * 滚动动画、视觉效果、交互增强等
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

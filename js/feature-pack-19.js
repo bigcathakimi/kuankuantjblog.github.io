@@ -1,7 +1,7 @@
 /**
  * 功能包 #19: 辅助工具 (91-95)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

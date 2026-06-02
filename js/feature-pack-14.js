@@ -1,7 +1,7 @@
 /**
  * 功能包 #14: 通知与提醒 (66-70)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

@@ -2,7 +2,7 @@
  * 批量功能包 #1 (181-300) - 120个功能
  * 占位功能、工具集、交互增强
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 181-200: 页面效果类 (20个)

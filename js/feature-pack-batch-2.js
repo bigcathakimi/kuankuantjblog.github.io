@@ -2,7 +2,7 @@
  * 批量功能包 #2 (301-420) - 120个功能
  * 表单增强、验证、数据处理
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 301-330: 表单验证类 (30个)

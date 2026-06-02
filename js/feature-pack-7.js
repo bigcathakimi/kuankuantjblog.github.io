@@ -1,7 +1,7 @@
 /**
  * 功能包 #7: 用户交互 (31-35)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

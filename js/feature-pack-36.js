@@ -1,7 +1,7 @@
 /**
  * 功能包 #36: 随机与抽奖 (176-180)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

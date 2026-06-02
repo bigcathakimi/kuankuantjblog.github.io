@@ -1,7 +1,7 @@
 /**
  * 功能包 #34: 数学与公式 (166-170)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

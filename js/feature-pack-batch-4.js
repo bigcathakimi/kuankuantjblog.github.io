@@ -2,7 +2,7 @@
  * 批量功能包 #4 (541-660) - 120个功能
  * 存储、缓存、状态管理
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 541-580: 存储方案类 (40个)

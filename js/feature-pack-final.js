@@ -2,7 +2,7 @@
  * 最终功能包 - Final (901-1000) - 100个功能
  * 辅助工具、开发体验、特殊效果
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 901-930: 开发体验类 (30个)

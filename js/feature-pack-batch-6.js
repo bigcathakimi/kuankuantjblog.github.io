@@ -2,7 +2,7 @@
  * 批量功能包 #6 (781-900) - 120个功能
  * 动画、特效、视觉增强
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 781-820: CSS动画类 (40个)

@@ -2,7 +2,7 @@
  * 阅读体验增强模块
  * 包含：阅读进度同步、目录导航、阅读偏好
  */
-import { API_BASE_URL } from './api-config.js?v=20260524a';
+import { API_BASE_URL } from './api-config.js?v=20260602';
 
 class ReadingEnhancement {
     constructor() {

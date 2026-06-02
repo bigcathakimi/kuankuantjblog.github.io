@@ -1,5 +1,5 @@
 
-import { API_BASE_URL } from './api-config.js?v=20260524a';
+import { API_BASE_URL } from './api-config.js?v=20260602';
 import { escapeHtml, renderTitleBadge, renderLevelBadge } from './utils.js';
 import { renderMarkdown } from './markdown.js';
 

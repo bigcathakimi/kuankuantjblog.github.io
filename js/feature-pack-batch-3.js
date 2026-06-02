@@ -2,7 +2,7 @@
  * 批量功能包 #3 (421-540) - 120个功能
  * 网络请求、API集成、异步处理
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 421-460: HTTP请求类 (40个)

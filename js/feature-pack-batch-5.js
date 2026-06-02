@@ -2,7 +2,7 @@
  * 批量功能包 #5 (661-780) - 120个功能
  * 路由、安全、调试工具
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // 661-700: 路由导航类 (40个)

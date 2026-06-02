@@ -2,7 +2,7 @@
  * 🚀 超级功能包 Ultra #1 - 真正海量功能 (1-1000)
  * 每个功能都有完整实现！不是空架子！
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 
 // ============================================================

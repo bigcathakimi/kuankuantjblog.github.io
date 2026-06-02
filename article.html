@@ -436,7 +436,7 @@
             }
         }
     </style>
-    <link rel="stylesheet" href="/css/theme.css?v=3">
+    <link rel="stylesheet" href="/css/theme.css?v=4">
     <!-- 代码高亮 -->
     <link rel="stylesheet" href="https://unpkg.com/highlight.js@11/styles/github.min.css">
     <style>
@@ -684,12 +684,12 @@
 
             if (window.BrowserDetect && window.BrowserDetect.needLegacyMode()) {
                 // 旧版浏览器：使用兼容版本（无 ES Module，兼容 IE11）
-                script.src = '/js/article-display-legacy.js?v=20260326';
+                script.src = '/js/article-display-legacy.js?v=20260602';
                 console.log('[BrowserDetect] 加载兼容版本脚本 (Legacy Mode)');
             } else {
                 // 现代浏览器：使用 ES Module 版本
                 script.type = 'module';
-                script.src = '/js/article-display.js?v=20260326';
+                script.src = '/js/article-display.js?v=20260602';
                 console.log('[BrowserDetect] 加载现代版本脚本 (ES Module)');
             }
 
@@ -697,9 +697,9 @@
         })();
     </script>
     <!-- 浏览历史记录 -->
-    <script src="/js/reading-history.js?v=20260329"></script>
+    <script src="/js/reading-history.js?v=20260602"></script>
     <!-- 文章导出功能 -->
-    <script src="/js/article-export.js?v=20260329"></script>
+    <script src="/js/article-export.js?v=20260602"></script>
     <script>
         // 全屏阅读模式功能
         (function initFullscreenMode() {
@@ -804,18 +804,18 @@
             }
         });
     </script>
-    <script src="/js/theme.js?v=1"></script>
+    <script src="/js/theme.js?v=2"></script>
 
 
-<script src="/js/music-player.js?v=2"></script>
+<script src="/js/music-player.js?v=3"></script>
 <!-- 代码块复制按钮 -->
 <script src="/js/code-copy-lite.js"></script>
 
 <!-- 弹幕评论系统 -->
-<script type="module" src="/js/danmaku-comments.js?v=20260227a"></script>
+<script type="module" src="/js/danmaku-comments.js?v=20260602"></script>
 
 <!-- 100功能包加载器 -->
-<script type="module" src="/js/feature-loader.js?v=20260419a"></script>
+<script type="module" src="/js/feature-loader.js?v=20260602"></script>
 </body>
 
 </html>

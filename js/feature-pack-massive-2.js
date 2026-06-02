@@ -2,7 +2,7 @@
  * 功能包 - 海量功能合集 #2 (56-105) - 50个功能
  * 社交、工具、交互、特效、辅助功能
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

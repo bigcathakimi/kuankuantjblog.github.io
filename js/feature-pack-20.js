@@ -1,7 +1,7 @@
 /**
  * 功能包 #20: 高级功能 (96-100)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

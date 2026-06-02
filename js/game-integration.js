@@ -3,7 +3,7 @@
  * 在网站中嵌入简单游戏，玩完赚硬币
  */
 
-import { API_BASE_URL } from './api-config.js?v=20260524a';
+import { API_BASE_URL } from './api-config.js?v=20260602';
 
 class GameIntegration {
     constructor() {

@@ -1,7 +1,7 @@
 /**
  * 功能包 #24: 日历与时间 (116-120)
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 const { util } = FeaturePack;
 const el = util.el;
 

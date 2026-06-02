@@ -2,11 +2,11 @@
  * 功能加载器 - 精简版
  * 只加载不干扰页面视觉的核心功能
  */
-import FeaturePack from './feature-pack-core.js?v=20260419a';
+import FeaturePack from './feature-pack-core.js?v=20260602';
 
-import './feature-pack-1.js?v=20260419a';
-import './feature-pack-2.js?v=20260419a';
-import './feature-pack-3.js?v=20260419a';
+import './feature-pack-1.js?v=20260602';
+import './feature-pack-2.js?v=20260602';
+import './feature-pack-3.js?v=20260602';
 
 document.addEventListener('DOMContentLoaded', () => {
     const allowedFeatures = [

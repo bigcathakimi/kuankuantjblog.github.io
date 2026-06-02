@@ -44,8 +44,8 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="//cdn.bootcdn.net">
-     <link rel="preload" href="css/chinese-style.css?v=6" as="style">
-    <link rel="preload" href="css/theme.css?v=4" as="style">
+     <link rel="preload" href="css/chinese-style.css?v=7" as="style">
+    <link rel="preload" href="css/theme.css?v=5" as="style">
 
     <link rel="shortcut icon" href="favicon.ico">
     <!-- PWA -->
@@ -67,13 +67,13 @@
     <link rel="apple-touch-startup-image" href="/images/icons/splash-1179x2556.png" media="(device-width: 393px) and (device-height: 852px)">
     <link rel="alternate" type="application/rss+xml" title="Hakimi 的猫爬架 RSS" href="https://1321178544-g8m9k3cmc6.ap-beijing.tencentscf.com/articles/feed/rss">
     <!-- 非关键CSS：布局和主题 - 同步加载 -->
-     <link rel="stylesheet" href="css/chinese-style.css?v=6">
-    <link rel="stylesheet" href="css/auth.css?v=3">
-    <link rel="stylesheet" href="css/tianjg-theme.css?v=3">
-    <link rel="stylesheet" href="css/theme.css?v=4">
+     <link rel="stylesheet" href="css/chinese-style.css?v=7">
+    <link rel="stylesheet" href="css/auth.css?v=4">
+    <link rel="stylesheet" href="css/tianjg-theme.css?v=4">
+    <link rel="stylesheet" href="css/theme.css?v=5">
     
     <!-- 非关键CSS：动画和组件 - 异步加载 -->
-    <link rel="stylesheet" href="css/apple-animations.css?v=2">
+    <link rel="stylesheet" href="css/apple-animations.css?v=3">
 
     <!-- 兼容性 polyfill：为旧浏览器提供现代 JS 特性支持 - defer -->
     <script src="js/polyfill.js" defer></script>
@@ -490,11 +490,11 @@
         </div>
     </div>
     <!-- IP 安全系统 -->
-    <script src="js/ip-security.js?v=20260329"></script>
+    <script src="js/ip-security.js?v=20260602"></script>
     <!-- supabase.js 已移除（未使用），auth 系统延迟加载 -->
-    <script type="module" src="js/supabase-auth.js?v=20260524a"></script>
-    <script type="module" src="js/load-articles.js?v=20260524a"></script>
-    <script type="module" src="js/blog-search.js?v=20260524a"></script>
+    <script type="module" src="js/supabase-auth.js?v=20260602"></script>
+    <script type="module" src="js/load-articles.js?v=20260602"></script>
+    <script type="module" src="js/blog-search.js?v=20260602"></script>
     <!-- API 性能优化模块 -->
     <script type="module">
         import { dataPreloader } from './js/data-preload.js';
@@ -642,12 +642,12 @@
             } catch (e) { /* ignore */ }
         })();
     </script>
-    <script src="js/theme.js?v=1"></script>
+    <script src="js/theme.js?v=2"></script>
     <!-- PWA Service Worker 注册 -->
     <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js?v=20260524a')
+            navigator.serviceWorker.register('/sw.js?v=20260602')
                 .then(reg => console.log('SW registered:', reg.scope))
                 .catch(err => console.log('SW registration failed:', err));
         });
@@ -756,12 +756,12 @@ if (githubLoginBtn) {
 }
 });
 </script>
-<script src="js/github-login.js?v=1" defer></script>
+<script src="js/github-login.js?v=2" defer></script>
 
 
 <script type="module">
-import DailyQuiz from './js/daily-quiz.js?v=20260227a';
-import ReadingChallenge from './js/reading-challenge.js?v=20260227a';
+import DailyQuiz from './js/daily-quiz.js?v=20260602';
+import ReadingChallenge from './js/reading-challenge.js?v=20260602';
 import { AchievementSystem } from './js/achievement-system.js';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -797,17 +797,17 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <!-- 200功能包加载器 -->
-<script type="module" src="js/feature-loader.js?v=20260524a"></script>
+<script type="module" src="js/feature-loader.js?v=20260602"></script>
 
 <!-- 性能优化模块加载 -->
-<script src="js/performance-optimizer.js?v=20260524a" defer></script>
-<script src="js/resource-prefetcher.js?v=20260524a" defer></script>
-<script src="js/resource-optimizer.js?v=20260524a" defer></script>
+<script src="js/performance-optimizer.js?v=20260602" defer></script>
+<script src="js/resource-prefetcher.js?v=20260602" defer></script>
+<script src="js/resource-optimizer.js?v=20260602" defer></script>
 
 <!-- 13模块集成加载器 -->
-<script type="module" src="js/module-loader.js?v=20260524a"></script>
+<script type="module" src="js/module-loader.js?v=20260602"></script>
 
-    <script src="js/mouse-particles.js?v=20260524a" defer></script>
+    <script src="js/mouse-particles.js?v=20260602" defer></script>
     <script src="js/apple-animations.js?v=2" defer></script>
 </body>
 
